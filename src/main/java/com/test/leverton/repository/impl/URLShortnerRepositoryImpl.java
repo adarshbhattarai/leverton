@@ -44,7 +44,7 @@ public class URLShortnerRepositoryImpl implements URLShortnerRepository{
 
     @Override
     public List<URL> getAllURL() {
-        /*return entityManager.createNativeQuery("SELECT * URL)
+        /*return entityManager.createNativeQuery("SELECT * from URL)
                 .getResultList();*/
         return urls;
     }
